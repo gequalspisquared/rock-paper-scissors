@@ -1,0 +1,18 @@
+body {
+    background-color: #4C3A51;
+    margin: 0;
+}
+
+.content {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
