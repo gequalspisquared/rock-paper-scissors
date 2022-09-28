@@ -4,16 +4,25 @@
     <meta charset="UTF-8">
     <title>Rock Paper Scissors</title>
     <link rel="stylesheet" href="style.css">
+    <script src="rps.js" defer></script>
     <!-- <script src="rockpaperscissors.js">
     </script> -->
 </head>
 <body>
-    <div class="content">
+    <div class="container">
         <ul class="options">
-            <li><button data-option="rock">Rock</button></li>
-            <li><button data-option="paper">Paper</button></li>
-            <li><button data-option="scissors">Scissors</button></li>
+            <li><button data-option="rock" class="option">Rock</button></li>
+            <li><button data-option="paper" class="option">Paper</button></li>
+            <li><button data-option="scissors" class="option">Scissors</button></li>
         </ul>
+
+        <div class="scoreboard">
+            <ul>
+                <li data-playerScore></li>
+                <li data-winner></li>
+                <li data-computerScore></li>
+            </ul>
+        </div>
     </div>
 </body>
 </html>
