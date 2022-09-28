@@ -1,6 +1,7 @@
 body {
     background-color: #4C3A51;
     margin: 0;
+    font-size: 20px;
 }
 
 .container {
@@ -17,4 +18,36 @@ ul {
     display: flex;
     gap: 10px;
     align-items: center;
+}
+
+button {
+    font-size: 20px;
+    width: 85px;
+    background-color: #B25068;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.scoreboard > ul > * {
+    color: white;
+}
+
+.playerScore,
+.computerScore {
+    width: 150px;
+}
+
+.playerScore {
+    text-align: right;
+}
+
+.winner {
+    width: 250px;
+    text-align: center;
+}
+
+.computerScore {
+    text-align: left;
 }
